@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IoT Fraud Detection System</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background: #1e3c72;
+    padding: 15px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: white;
+    color: #1e3c72;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
+/* Sections */
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    color: #2a5298;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#tech">Technologies</a></li>
+        <li><a href="#applications">Applications</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>IoT-Based Multi-Tier Fraud Detection System</h1>
+    <p>Real-Time Shipment Security with Risk Scoring & Geo-Fencing</p>
+    <a href="#" class="btn">View GitHub Repository</a>
+</div>
+
+<!-- Problem Section -->
+<section id="problem">
+    <h2>Problem Statement</h2>
+    <p>
+        Shipment fraud, route deviation, and cargo tampering cause financial losses
+        in supply chains. Existing systems rely mainly on GPS tracking and lack
+        intelligent multi-sensor validation.
+    </p>
+</section>
+
+<!-- Solution Section -->
+<section id="solution">
+    <h2>Proposed Solution</h2>
+    <div class="card-container">
+        <div class="card">Multi-Sensor Monitoring</div>
+        <div class="card">Weight Variation Detection</div>
+        <div class="card">Tamper Detection</div>
+        <div class="card">GPS Tracking</div>
+        <div class="card">Risk Scoring System</div>
+        <div class="card">Geo-Fencing Protection</div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features">
+    <h2>Key Features</h2>
+    <div class="card-container">
+        <div class="card">Real-Time Data Processing</div>
+        <div class="card">Dynamic Fraud Risk Index</div>
+        <div class="card">Automated Alerts</div>
+        <div class="card">Scalable IoT Architecture</div>
+        <div class="card">Secure Backend Database</div>
+    </div>
+</section>
+
+<!-- Technologies -->
+<section id="tech">
+    <h2>Technologies Used</h2>
+    <div class="card-container">
+        <div class="card">
+            <strong>Hardware</strong><br>
+            ESP32<br>
+            Load Cell<br>
+            GPS Module<br>
+            Tamper Switch
+        </div>
+
+        <div class="card">
+            <strong>Software</strong><br>
+            Python (Flask)<br>
+            MySQL/PostgreSQL<br>
+            REST API
+        </div>
+
+        <div class="card">
+            <strong>Communication</strong><br>
+            WiFi<br>
+            HTTP<br>
+            JSON
+        </div>
+    </div>
+</section>
+
+<!-- Applications -->
+<section id="applications">
+    <h2>Real-Life Applications</h2>
+    <div class="card-container">
+        <div class="card">Logistics & Transportation</div>
+        <div class="card">E-Commerce Shipment Protection</div>
+        <div class="card">Pharmaceutical Supply Chain</div>
+        <div class="card">Industrial Logistics</div>
+        <div class="card">High-Security Government Transport</div>
+    </div>
+</section>
+
+<footer>
+    © 2026 IoT Multi-Tier Fraud Detection System | Competition Submission
+</footer>
+
+</body>
+</html>
